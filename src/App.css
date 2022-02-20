@@ -1,0 +1,104 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  position: relative;
+  width: 1000px;
+  height: 250px;
+  border: transparent solid;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  padding: 40px;
+}
+
+.pie-graph {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.pie-graph section {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pie-graph h1 {
+  font-size: 40px;
+  line-height: 0;
+  margin-bottom: 0;
+}
+.pie-graph p {
+  line-height: 0;
+  margin: 25px;
+}
+.line-graph {
+  width: 700px;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+}
+
+h3 {
+  font-weight: 600;
+}
+.items-details-section {
+  width: 200px;
+}
+.items-details {
+  display: flex;
+  height: 41%;
+}
+.top-section {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+.top-section input {
+  border: transparent solid;
+  font-size: 15px;
+  margin-left: -5px;
+  width: 105px;
+}
+.top-section input:focus {
+  outline: none;
+}
+.A strong {
+  color: green;
+}
+.B strong {
+  color: rgb(221, 221, 90);
+}
+.C strong {
+  color: red;
+}
+
+.bottom-section {
+  padding-top: 80px;
+  padding-left: 33px;
+}
+.bottom-section section {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0;
+  margin-bottom: -17px;
+}
+.bottom-section h1 {
+  padding-left: 8px;
+  font-size: 30px;
+}
+.bottom-section p {
+  padding-left: 8px;
+}
+.lines-div {
+  position: relative;
+  margin-right: 25px;
+}
